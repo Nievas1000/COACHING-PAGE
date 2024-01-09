@@ -1,0 +1,59 @@
+@media only screen and (max-width: 968px){
+    .background-home{
+        height: 100%;
+    }
+
+    .navbar-container{
+        position: relative;
+    }
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(to bottom, #003AFF, #001B79);
+        position: absolute;
+        top: 65px; 
+        left: 0;
+        z-index: 1000;
+        height: 100vh;
+        scroll-behavior: none;
+      }
+    
+      .navbar-nav.show {
+        display: block;
+      }
+    
+      .navbar-nav .nav-item {
+        margin: 10px 0;
+      }
+
+      .insignia div{
+        margin: 0 20px 30px;
+      }
+      .who{
+        width: 100%;
+      }
+      .who p{
+        width: 100%;
+      }
+}
+
+@media only screen and (max-width: 700px){
+    .insignia div{
+        margin: 0 10px 20px;
+    }
+    .insignia h2{
+        font-size: 30px;
+    }
+    .container-testimonial p{
+        font-size: 40px;
+    }
+    .container-who h3{
+        font-size: 70px;
+        margin: 0 0 -30px 0;
+    }
+
+    .container-who h2{
+        font-size: 70px;
+        margin: 0 0 15px 35px;
+    }
+}
