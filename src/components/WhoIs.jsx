@@ -1,5 +1,5 @@
-import image from '../assets/who-goggins.jpg'
-import imagedquote from '../assets/goggins-dquote.png'
+import image from '../assets/who-clear.png'
+import imagedquote from '../assets/clare-dquote.png'
 
 export const WhoIs = () => {
   return (
@@ -8,10 +8,10 @@ export const WhoIs = () => {
         <div className='who d-block d-md-flex'>
           <div className='col-md-6'>
             <h3>Who is</h3>
-            <h2>David Goggins?</h2>
-            <p>David Goggins is a retired United States Navy SEAL and former United States Air Force Tactical Air Control Party member who has gained recognition for his remarkable feats of physical and mental endurance. Born on February 17, 1975, in Buffalo, New York, Goggins faced many challenges in his early life, including health issues, obesity, and a difficult upbringing.</p>
+            <h2>James Clear?</h2>
+            <p>James Clear is a speaker and bestselling writer focused on habits, decision making, and continuous improvement. He is the author of the #1 New York Times bestseller, Atomic Habits, which he has translated into more than 50 languages and sold more than 5 million copies.</p>
             <div className='pt-3 pb-5'>
-              <button className='btn primary-color'>Learn more about David</button>
+              <button className='btn primary-color p-3'>Learn more about James</button>
             </div>
           </div>
           <div>
@@ -24,8 +24,8 @@ export const WhoIs = () => {
           <img className='img-fluid' src={imagedquote} alt='Logo' />
         </div>
         <div className='container position-relative'>
-          <p>"David Goggins is not just a story of self-improvement, he is a human demolition machine who refuses to be limited by anyone or anything."</p>
-          <span>Rich Roll, endurance athlete and author</span>
+          <p>"James Clear has spent years researching habits and how they can change our lives. This book is an easy-to-follow guide to changing your habits and changing your life."</p>
+          <span>Adam Grant, organizational psychologist and author.</span>
         </div>
       </div>
     </div>

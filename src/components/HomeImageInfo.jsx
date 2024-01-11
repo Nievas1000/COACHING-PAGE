@@ -2,8 +2,8 @@ import image from '../assets/idea.png'
 
 export const HomeImageInfo = () => {
   return (
-    <div className='pb-5 h-100 d-flex align-items-center text-white'>
-      <div className='col-12 col-md-6'>
+    <div className='h-100 d-flex align-items-center'>
+      <div className='col-12 col-md-6 text-brown'>
         <h1>THE ‘EXPERT BUSINESS’ MENTOR FOR PERSONAL BRAND BUSINESSES!</h1>
         <div className='d-block d-md-flex pt-5'>
           <div className='d-flex justify-content-center'>
@@ -16,15 +16,15 @@ export const HomeImageInfo = () => {
               to take your business to the next level!
             </p>
             <div className='pt-5'>
-              <button className='btn primary-color'>Get your report</button>
+              <button className='btn primary-color p-3'>Get your report</button>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='d-none d-md-flex h-100 pb-5 align-items-end justify-content-end'>
-        <div className='w-50 text-center'>
-          <h5 className='pb-4'>“David Goggins is
+      <div className='d-none d-md-flex h-100 pb-5 align-items-end justify-content-end text-white'>
+        <div className='w-50 text-center ps-5'>
+          <h5 className='pb-4'>“James Clear is
             Changing the Game of online entrepreneurship!”
           </h5>
           <h2>Success</h2>

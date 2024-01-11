@@ -1,16 +1,16 @@
 .primary-color{
-    background-color: #FD703F !important;
+    background-color: #3E2723 !important;
     color: white !important;
 }
 
 .primary-color:hover{
     background-color: #FFFFFF !important;
-    color: #FD703F !important;
-    border: solid 1px #FD703F !important;
+    color: #3E2723 !important;
+    border: solid 1px #3E2723 !important;
 }
 
 .background-home{
-    background-image: url('../assets/Goggins.png');
+    background-image: url('../assets/Clare.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 90vh;
@@ -28,7 +28,7 @@
 
 .navbar-container.scrolled {
     padding: 0px 0;
-    background-color: #0059e7;
+    background-color: #FFDF91;
 }
 
 .navbar-nav{
@@ -36,24 +36,13 @@
 }
 
 .navbar-nav a{
-    color: white !important;
+    color: #3E2723 !important;
 }
 
 /* HOME IMAGE INFO */
 
-.button-report{
-    font-size: 20px;
-    font-weight: 900;
-    fill: #FFFFFF;
-    color: #FFFFFF;
-    background-color: #FD703F;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #FD703F;
-    border-radius: 4px;
-    padding: 10px;
-    width: auto;
-    cursor: pointer;
+.container-home-image{
+    color: #3E2723;
 }
 
 /* INSIGNIA */
@@ -144,26 +133,38 @@
 /* BOOKS */
 
 .background-books{
-    background-image: url('../assets/books.png');
+    background-image: url('../assets/books/books.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0;
     padding: 5%;
 }
 
+.container-book{
+    display: flex;
+    padding-left: 5%;
+}
+
 .container-book img{
     height: 360px;
-    width: 250px;
+    width: 300px;
 }
 
 .container-book p{
     line-height: 1.6;
     font-size: 18px;
     margin-bottom: 25px;
-    color: white;
 }
 
-.container-book-info h3{
+.container-info-book{
+    display: flex !important;
+}
+
+.book-info{
+    width: 50%;
+}
+
+.book-info h3{
     font-family: 'Kalam', cursive;
     font-weight: normal;
     font-style: normal;
@@ -174,7 +175,7 @@
     display: block;
 }
 
-.container-book-info h2{
+.book-info h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 120px;
     margin: 0 0 15px -20px;
@@ -183,10 +184,40 @@
     letter-spacing: -1px;
 }
 
-.container-book-info p{
+.book-info p{
     line-height: 1.6;
     font-size: 20px;
     margin-bottom: 25px;
-    color: white;
+}
+
+.book-description{
+    width: 100%;
+    padding-top: 2%;
+    text-align: left;
+}
+
+/* CONTENT */
+
+.container-content *{
+    color: #3E2723 !important;
+}
+
+.container-content img{
+    max-height: 266px;
+}
+
+.view-post{
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* SPEAKER */
+
+.img-speaker{
+    border: 7px solid #fff;
+    box-shadow: 0 15px 35px 5px rgba(0,0,0,.2);
+    max-width: 1080px;
+    max-height: 630px;
 }
 
