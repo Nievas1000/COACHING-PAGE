@@ -1,25 +1,19 @@
-import { HomeImageInfo } from './components/HomeImageInfo'
-import { Insignia } from './components/Insignia'
+import { Route, Routes } from 'react-router-dom'
+import { Home } from './pages/home'
+import { Books } from './pages/books'
 import { Navbar } from './components/Navbar'
-import { WhoIs } from './components/WhoIs'
-import { BookInfo } from './components/BookInfo'
-import { LatestContent } from './components/LatestContent'
-import { Speaker } from './components/Speaker'
+import { Footer } from './components/Footer'
 
 function App () {
   return (
     <div>
-      <div className='background-home'>
-        <Navbar />
-        <div className='container pt-2 h-100'>
-          <HomeImageInfo />
-        </div>
-      </div>
-      <Insignia />
-      <WhoIs />
-      <BookInfo />
-      <LatestContent />
-      <Speaker />
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/books' element={<Books />} />
+      </Routes>
+      <Footer />
     </div>
   )
 }

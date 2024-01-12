@@ -114,7 +114,7 @@
 
 .container-testimonial p{
     font-family: "Lato", Sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
     line-height: 1.3em;
     text-align: center;
@@ -198,6 +198,12 @@
 
 /* CONTENT */
 
+.background-content{
+    background: radial-gradient(circle at 100% 50%, #FFDF91, transparent 40%);
+    margin: 0;
+    padding: 0;
+}
+
 .container-content *{
     color: #3E2723 !important;
 }
@@ -219,5 +225,12 @@
     box-shadow: 0 15px 35px 5px rgba(0,0,0,.2);
     max-width: 1080px;
     max-height: 630px;
+}
+
+/* NAVBAR */
+
+.links-navbar p:hover{
+    cursor: pointer;
+    color: #85544c;
 }
 

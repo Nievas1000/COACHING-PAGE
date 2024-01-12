@@ -1,10 +1,10 @@
-import image from '../assets/idea.png'
+import image from '../../assets/idea.png'
 
 export const HomeImageInfo = () => {
   return (
     <div className='h-100 d-flex align-items-center'>
       <div className='col-12 col-md-6 text-brown'>
-        <h1>THE ‘EXPERT BUSINESS’ MENTOR FOR PERSONAL BRAND BUSINESSES!</h1>
+        <h1>‘AN EASY & PROVEN WAY TO BUILD GOOD HABITS & BREAK BAD ONES’</h1>
         <div className='d-block d-md-flex pt-5'>
           <div className='d-flex justify-content-center'>
             <img className='pt-2' src={image} alt='Logo' height='200' />

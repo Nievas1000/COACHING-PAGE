@@ -1,5 +1,5 @@
-import image from '../assets/who-clear.png'
-import imagedquote from '../assets/clare-dquote.png'
+import image from '../../assets/who-clear.png'
+import imagedquote from '../../assets/clare-dquote.png'
 
 export const WhoIs = () => {
   return (
@@ -24,8 +24,10 @@ export const WhoIs = () => {
           <img className='img-fluid' src={imagedquote} alt='Logo' />
         </div>
         <div className='container position-relative'>
-          <p>"James Clear has spent years researching habits and how they can change our lives. This book is an easy-to-follow guide to changing your habits and changing your life."</p>
-          <span>Adam Grant, organizational psychologist and author.</span>
+          <p>"“James is a strong, confident facilitator and his message was easily understood by the audience. He did a great job teaching and facilitating a conversation with our group about habits. It was a great experience and our team got a lot of valuable ideas from the time spent.”</p>
+          <span>
+            Laura Blanchard, North America Training Manager at Lululemon.
+          </span>
         </div>
       </div>
     </div>

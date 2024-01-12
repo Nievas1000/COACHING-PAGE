@@ -1,0 +1,40 @@
+.background-books-page{
+    background-image: url('../assets/books/background-page-books.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+}
+
+.background-books-page h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+.background-books-page h1 em{
+    font-family: 'Kalam', cursive;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.background-book-one{
+    background: linear-gradient(to top, #F4C75D, #ffffff);
+    padding: 10%;
+}
+
+.background-book-two{
+    background: linear-gradient(to bottom, #F4C75D, #ffffff);
+    padding: 10%;
+}
+
+.background-book-two img{
+    max-width: 460px;
+    max-height: 360px;
+}

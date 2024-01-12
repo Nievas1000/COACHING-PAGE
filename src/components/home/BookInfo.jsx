@@ -1,5 +1,5 @@
-import atomiHabits from '../assets/books/atomic-habits.png'
-import habitJournal from '../assets/books/habit-journal.png'
+import atomiHabits from '../../assets/books/atomic-habits.png'
+import habitJournal from '../../assets/books/habit-journal.png'
 
 export const BookInfo = () => {
   return (

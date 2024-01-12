@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import image from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false)
@@ -31,9 +32,9 @@ export const Navbar = () => {
   return (
     <div className={`navbar-container w-100 ${scroll ? 'scrolled' : ''}`}>
       <nav className={`container navbar navbar-expand-lg navbar-dark navbar-transparent w-100 ${scroll ? 'scrolled' : ''}`}>
-        <a className='navbar-brand' href='#'>
+        <Link className='navbar-brand' to='/'>
           <img className='pt-2' src={image} alt='Logo' height='50' />
-        </a>
+        </Link>
 
         <button className='navbar-toggler' onClick={() => setMenuOpen(!isMenuOpen)}>
           <span className='navbar-toggler-icon' />
@@ -41,26 +42,23 @@ export const Navbar = () => {
 
         <div className={`collapse navbar-collapse justify-content-end ${isMenuOpen ? 'show' : ''}`} id='navbarNav'>
           <ul className='navbar-nav'>
-            <li className='nav-item active'>
-              <a className='nav-link' href='#'>Mastermind</a>
+            <li className='nav-item'>
+              <Link className='nav-link' to='/books'>Books</Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>Coaching</a>
+              <Link className='nav-link' to=''>Articles</Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>Speaking</a>
+              <Link className='nav-link' to=''>Newsletter</Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>Books</a>
+              <Link className='nav-link' to=''>Quotes</Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>Blog</a>
+              <Link className='nav-link' to=''>Speaking</Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#'>About</a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#'>Resources</a>
+              <Link className='nav-link' to=''>About</Link>
             </li>
           </ul>
         </div>
