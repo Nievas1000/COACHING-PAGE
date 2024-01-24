@@ -2,7 +2,7 @@
     background-image: url('../assets/books/background-page-books.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 60vh;
     margin: 0;
     padding: 0;
 }
@@ -26,12 +26,12 @@
 
 .background-book-one{
     background: linear-gradient(to top, #F4C75D, #ffffff);
-    padding: 10%;
+    padding: 5%;
 }
 
 .background-book-two{
     background: linear-gradient(to bottom, #F4C75D, #ffffff);
-    padding: 10%;
+    padding: 5%;
 }
 
 .background-book-two img{

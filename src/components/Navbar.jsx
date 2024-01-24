@@ -46,13 +46,10 @@ export const Navbar = () => {
               <Link className='nav-link' to='/books'>Books</Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to=''>Articles</Link>
+              <Link className='nav-link' to='/articles'>Articles</Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to=''>Newsletter</Link>
-            </li>
-            <li className='nav-item'>
-              <Link className='nav-link' to=''>Quotes</Link>
+              <Link className='nav-link' to='/quotes'>Quotes</Link>
             </li>
             <li className='nav-item'>
               <Link className='nav-link' to=''>Speaking</Link>

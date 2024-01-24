@@ -1,0 +1,35 @@
+.background-articles-page{
+    background-image: url('../assets/articles/background-page-articles.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+}
+
+.background-articles-page h1{
+    font-family: 'Kalam', cursive;
+}
+
+.articles p {
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: padding-bottom 0.3s ease;
+}
+  
+.articles p:hover {
+    background: linear-gradient(to top, #f3cf7c, #ffffff);
+    text-decoration: underline #f5cc6c;
+}
+  
+.articles p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #333;
+}

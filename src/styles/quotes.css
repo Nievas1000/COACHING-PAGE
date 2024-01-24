@@ -1,0 +1,15 @@
+.quote{
+    border: 1px solid #EDEADE;
+    padding: 16px 40px 36px 40px;
+    margin-bottom: 24px;
+}
+
+.quote-footer{
+    color: #666;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-family: europa, sans-serif;
+    letter-spacing: 0.1em;
+}
