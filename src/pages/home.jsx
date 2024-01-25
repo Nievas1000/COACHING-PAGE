@@ -4,6 +4,7 @@ import { WhoIs } from '../components/home/WhoIs'
 import { BookInfo } from '../components/home/BookInfo'
 import { LatestContent } from '../components/home/LatestContent'
 import { Speaker } from '../components/home/Speaker'
+import { ScrollAnimationContainer } from '../components/home/ScrollContainer'
 
 export const Home = () => {
   return (
@@ -14,10 +15,18 @@ export const Home = () => {
         </div>
       </div>
       <Insignia />
-      <WhoIs />
-      <BookInfo />
-      <LatestContent />
-      <Speaker />
+      <ScrollAnimationContainer direction='y' initial={300}>
+        <WhoIs />
+      </ScrollAnimationContainer>
+      <ScrollAnimationContainer direction='y' initial={300}>
+        <BookInfo />
+      </ScrollAnimationContainer>
+      <ScrollAnimationContainer direction='y' initial={300}>
+        <LatestContent />
+      </ScrollAnimationContainer>
+      <ScrollAnimationContainer direction='y' initial={300}>
+        <Speaker />
+      </ScrollAnimationContainer>
     </div>
   )
 }

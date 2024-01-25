@@ -18,6 +18,11 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
 /* NAVBAR */
 
 .navbar-container {

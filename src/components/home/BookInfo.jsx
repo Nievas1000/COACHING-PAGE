@@ -16,9 +16,9 @@ export const BookInfo = () => {
             <div className='book-description'>
               <h4 className='text-bold'>Master Your Mind and Defy the Odds</h4>
               <p>In this groundbreaking book, he reveals exactly how those tiny changes can grow to change our careers, our relationships, and every aspect of our lives.</p>
-              <div className='d-flex justify-content-center'>
+              <a href='https://jamesclear.com/atomic-habits' className='d-flex justify-content-center'>
                 <button className='btn primary-color p-2 w-50 d-flex justify-content-center'>More info</button>
-              </div>
+              </a>
             </div>
           </div>
           <div className='container-book text-center pt-5'>
@@ -26,9 +26,9 @@ export const BookInfo = () => {
             <div className='book-description'>
               <h4 className='text-bold'>Build Better Habits to Reach Your Goals</h4>
               <p>The Habit Journal is your power tool to live your life with intention and de-clutter your day-to-day to achieve your dreams. With a structured format to help you create productive habits to achieve your goals, it offers a monthly habit planner, a daily journal, a monthly habit review, and a habit tracker.</p>
-              <div className='d-flex justify-content-center'>
+              <a href='https://jamesclear.com/habit-journal' className='d-flex justify-content-center'>
                 <button className='btn primary-color p-2 w-50 d-flex justify-content-center'>More info</button>
-              </div>
+              </a>
             </div>
           </div>
         </div>

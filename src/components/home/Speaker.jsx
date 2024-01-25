@@ -10,9 +10,9 @@ export const Speaker = () => {
         <div className='w-75'>
           <h2>I am occasionally asked to speak at companies, conferences, or private events.</h2>
           <p className='pt-3'>Previous clients include Amazon, American Express, ADP, AT&T, Autodesk, Capital One, Cisco, Deloitte, Disney, ESPN, Facebook, General Dynamics, General Electric, Google, Honda, IKEA, JPMorgan Chase, Intel, LinkedIn, Lululemon, Mastercard, McKinsey & Company, Merrill Lynch, Microsoft, Pfizer, Procter & Gamble, Stanford Medical Center, State Farm, Zapier, and many more.</p>
-          <div className='d-flex justify-content-center pt-4 pb-4'>
+          <a href='https://jamesclear.com/events' className='d-flex justify-content-center pt-4 pb-4'>
             <button className='btn primary-color text-white p-3'>BOOK JAMES TO SPEAK</button>
-          </div>
+          </a>
         </div>
       </div>
     </div>

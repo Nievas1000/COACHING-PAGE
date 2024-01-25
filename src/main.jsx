@@ -5,6 +5,7 @@ import './styles/books.css'
 import './styles/articles.css'
 import './styles/mobile.css'
 import './styles/quotes.css'
+import './styles/about.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter } from 'react-router-dom'
 

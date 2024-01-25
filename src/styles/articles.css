@@ -11,7 +11,12 @@
     font-family: 'Kalam', cursive;
 }
 
-.articles p {
+.articles h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.articles a{
+    display: block;
     position: relative;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -19,12 +24,11 @@
     transition: padding-bottom 0.3s ease;
 }
   
-.articles p:hover {
+.articles a:hover {
     background: linear-gradient(to top, #f3cf7c, #ffffff);
-    text-decoration: underline #f5cc6c;
 }
   
-.articles p::after {
+.articles a::after {
     content: "";
     position: absolute;
     left: 0;

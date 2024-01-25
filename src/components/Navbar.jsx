@@ -43,6 +43,9 @@ export const Navbar = () => {
         <div className={`collapse navbar-collapse justify-content-end ${isMenuOpen ? 'show' : ''}`} id='navbarNav'>
           <ul className='navbar-nav'>
             <li className='nav-item'>
+              <Link className='nav-link' to=''>Home</Link>
+            </li>
+            <li className='nav-item'>
               <Link className='nav-link' to='/books'>Books</Link>
             </li>
             <li className='nav-item'>
@@ -52,10 +55,7 @@ export const Navbar = () => {
               <Link className='nav-link' to='/quotes'>Quotes</Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to=''>Speaking</Link>
-            </li>
-            <li className='nav-item'>
-              <Link className='nav-link' to=''>About</Link>
+              <Link className='nav-link' to='/about'>About</Link>
             </li>
           </ul>
         </div>

@@ -1,0 +1,91 @@
+.background-about-page{
+    background-image: url('../assets/background-about-page.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.line-company{
+    content: '';
+    border-top: 2px solid #F4C75D;
+    width: 170px;
+    margin: 0 auto 20px;
+    display: block;
+    position: relative;
+    height: 2px;
+}
+
+.container-about-info{
+    background: linear-gradient(to bottom, #F4C75D, #ffffff);
+}
+
+.container-about-info h1{
+    font-family: 'Kalam', cursive;
+}
+
+.container-about-info p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.container-about-info ul{
+    list-style: none;
+}
+.container-about-info li{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.container-about-info li::before{
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #F4C75D;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.container-benefits h1{
+    font-family: 'Kalam', cursive;
+}
+
+.container-benefits p, ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.company-container{
+    height: 600px !important;
+    max-width: 380px;
+}
+
+.container-recomendation{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-recomendation h3, h1{
+    font-weight: bold;
+}
+
+.container-recomendation p{
+    font-size: 18px;
+    padding-top: 5px;
+    width: 85%;
+    letter-spacing: 2px;
+}
+
+.recomendation-links{
+    text-decoration: underline !important;
+}
+
+.recomendation-links:hover{
+    background: linear-gradient(to top, #f3cf7c, #ffffff);
+}
