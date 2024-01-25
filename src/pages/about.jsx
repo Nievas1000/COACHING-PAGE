@@ -9,9 +9,9 @@ export const About = () => {
         <div className='container pt-2 h-100'>
           <div className='d-flex justify-content-start align-items-center h-100'>
             <div>
-              <h1>Quotes</h1>
+              <h1 className='background-title'>James Clear</h1>
               <p className='w-50'>
-                Embark on a journey of inspiration with our Quotes section. Elevate your spirit and find motivation in every visit. Explore the wisdom encapsulated in powerful and insightful thoughts from leaders, thinkers, and visionaries
+                I’m the author of the #1 New York Times bestseller, Atomic Habits, which has sold more than 15 million copies worldwide. My work has been featured in places like Time magazine, the New York Times, the Wall Street Journal and on CBS This Morning. Click here to learn more about me and my work.
               </p>
             </div>
           </div>

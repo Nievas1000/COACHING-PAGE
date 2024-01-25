@@ -7,7 +7,7 @@ export const Quotes = () => {
         <div className='container pt-2 h-100'>
           <div className='d-flex justify-content-start align-items-center h-100'>
             <div>
-              <h1>Quotes</h1>
+              <h1 className='background-title'>Quotes</h1>
               <p className='w-50'>
                 Embark on a journey of inspiration with our Quotes section. Elevate your spirit and find motivation in every visit. Explore the wisdom encapsulated in powerful and insightful thoughts from leaders, thinkers, and visionaries
               </p>

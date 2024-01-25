@@ -66,6 +66,9 @@
     height: 600px !important;
     max-width: 380px;
 }
+.background-title{
+    font-family: 'Kalam', cursive;
+}
 
 .container-recomendation{
     font-family: 'Times New Roman', Times, serif;
