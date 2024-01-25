@@ -15,9 +15,6 @@ export const HomeImageInfo = () => {
               Discover your scalability score and reveal EXACTLY what you need to focus on
               to take your business to the next level!
             </p>
-            <div className='pt-5'>
-              <button className='btn primary-color p-3'>Get your report</button>
-            </div>
           </div>
         </div>
       </div>
